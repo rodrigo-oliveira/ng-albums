@@ -1,0 +1,8 @@
+<div class="related-albums">
+  <h3 class="related-albums__title">Álbuns relacionados:</h3>
+  <ul class="related-albums__list">
+    <li class="related-albums__item" *ngFor="let album of photos$ | async" >
+      <app-album [album]="album"></app-album>
+    </li>
+  </ul>
+</div>

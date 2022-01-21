@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+button {
+  background-color: #ddd;
+  border: 0;
+  color: #444;
+  border: 0;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 50px;
+  justify-self: flex-end;
+}

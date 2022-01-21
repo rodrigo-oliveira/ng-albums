@@ -1,0 +1,12 @@
+
+<ul class="albums">
+  <h1 class="albums__title">{{title}}</h1>
+  <h3 class="albums__subtitle">{{subtitle}}</h3>
+
+  <ul class="albums__list">
+    <li *ngFor="let album of albums$ | async">
+      <app-album [album]="album"></app-album>
+    </li>
+  </ul>
+</ul>
+

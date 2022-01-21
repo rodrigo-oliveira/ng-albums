@@ -1,0 +1,10 @@
+.album-details {
+  list-style-type: none;
+  margin: 30px auto;
+  padding: 0 15px;
+  text-align: center;
+
+  &__title {
+    margin: 0;
+  }
+}
